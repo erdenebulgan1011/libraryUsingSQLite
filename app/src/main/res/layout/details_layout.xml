@@ -1,0 +1,93 @@
+<!-- res/layout/details_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/detailsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Book Details"
+        android:textAlignment="center"
+        android:textColor="#ff847f6a"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/detailsTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textColor="#c3767162"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/bauthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detailsTextView"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#c3767162"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/detailsDateText"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/detailsTextView"
+        android:text=""
+        android:layout_alignParentRight="true"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/bdate"
+        android:layout_below="@+id/detailsTextView"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="#c3767162"
+        android:text=""
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_below="@+id/detailsDateText"
+        android:layout_centerHorizontal="true"
+        android:text="Delete"
+        android:layout_marginTop="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_below="@+id/detailsDateText"
+        android:layout_centerHorizontal="true"
+        android:text="Буцах"
+        android:layout_marginTop="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_below="@+id/detailsDateText"
+        android:layout_centerHorizontal="true"
+        android:text="Update"
+        android:layout_marginTop="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
