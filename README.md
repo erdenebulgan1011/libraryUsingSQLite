@@ -157,8 +157,7 @@ This project demonstrates:
 
 ## 🧾 License
 
-This project was created for educational purposes as part of the **Лабораторийн ажил 10 – Өгөгдлийн сантай ажиллах** coursework.
-You may use or modify it for your own learning.
+This project was created for educational purposes. You may use or modify it for your own learning.
 
 ---
 
